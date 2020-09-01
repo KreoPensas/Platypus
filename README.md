@@ -3,7 +3,7 @@
 This is a 37 key wireless midi keyboard project that I built into a "key-tar" body. 
 it uses 7 additional touch sensors for the user interface. 
 
-Uses a teensy 4 for the transmitter and any Mega2560 board for the receiver. Could be easily run on a Teensy 3.2, 3.5, 3.6, or 4. 
+Uses a teensy 4 for the transmitter and any Mega2560 board for the receiver, or could be easily run on a Teensy 3.2, 3.5, 3.6, or 4. 
 A pair of xbee radios set for 57600 baud  -or- can be easily adapted to use other wireless serial communication devices.
 4x MPR121 12 electrode breakout boards, configured to addresses 0x5A, 0x5B, 0x5C and 0x5D.
 1 ADS1015 breeakout board for the pich bend input.
