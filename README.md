@@ -24,4 +24,9 @@ https://github.com/adafruit/Adafruit_MPR121
 https://github.com/adafruit/Adafruit_ADS1X15
 https://github.com/madsci1016/Arduino-EasyTransfer
 
+While I support copying my physical build, at the time it is impractical to publish a guide. 
+The user interface and pitch bend mechanisms can be readily changed to buttons and a commonly available joystick. 
+
+Equally, with a small amount of effort, any display can be used, you'll just have to change the graphcs code.
+
 
