@@ -20,9 +20,7 @@ A pair of xbee radios set for 57600 baud  -or- can be easily adapted to use othe
 Copper foil tape for the keys.
 
 The radios get attached to the serial port referenced in the Easy Transfer constructor line.
-On the transmitter this is coded as Serial1.
-On the receiver it is Serial2. Y
-ou may change these as desired, but change the EasyTransfer constructor accordingly.
+You may change these as desired, but change the EasyTransfer constructor accordingly.
 
 The files PlatypusXmit.ino and bitmap.h go together and are compiled into the Teensy 4
 The file PlatypusRecv.ino is compiled into the Mega2560
