@@ -5,7 +5,7 @@ it uses 7 additional touch sensors for the user interface.
 
 Uses a teensy 4 for the transmitter.
 
-Any Mega2560 board for the receiver, or could be easily run on a Teensy 3.2, 3.5, 3.6, or 4. 
+Any Mega2560 board with Atmel USB chip and mocolufa firmware can be used for the receiver, or can be  run on a Teensy 3.2, 3.5, 3.6, or 4. using the appropriate firmware as stated below.
 
 A pair of xbee radios set for 57600 baud  -or- can be easily adapted to use other wireless serial communication devices.
 
@@ -23,7 +23,10 @@ The radios get attached to the serial port referenced in the Easy Transfer 'begi
 You may change these as desired, but change the EasyTransfer 'begin' accordingly.
 
 The files PlatypusXmit.ino and bitmap.h go together and are compiled into the Teensy 4
-The file PlatypusRecv.ino is compiled into the Mega2560
+
+The file PlatypusRecv.ino is compiled for a  Mega2560
+
+the files PlatypusRecvTeensy and name.c go together and are compiled into a Teensy, select Midi under USB type.
 
 Also requires these libraries:
 
