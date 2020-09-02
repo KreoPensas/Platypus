@@ -26,7 +26,7 @@ The files PlatypusXmit.ino and bitmap.h go together and are compiled into the Te
 
 The file PlatypusRecv.ino is compiled for a  Mega2560
 
-the files PlatypusRecvTeensy and name.c go together and are compiled into a Teensy, select Midi under USB type.
+The files PlatypusRecvTeensy and name.c go together and are compiled into a Teensy, select Midi under USB type.
 
 Also requires these libraries:
 
