@@ -5,7 +5,7 @@ it uses 7 additional touch sensors for the user interface.
 
 Uses a teensy 4 for the transmitter.
 
-Any Mega2560 board with Atmel USB chip and mocolufa firmware can be used for the receiver, or can be  run on a Teensy 3.2, 3.5, 3.6, or 4. using the appropriate firmware as stated below.
+Any Mega2560 board with Atmel USB chip and mocolufa USB midi firmware can be used for the receiver, or can be  run on a Teensy 3.2, 3.5, 3.6, or 4. using the appropriate firmware as stated below.
 
 A pair of xbee radios set for 57600 baud  -or- can be easily adapted to use other wireless serial communication devices.
 
