@@ -41,3 +41,4 @@ Equally, with a small amount of effort, any display can be used, you'll just hav
 ![alt text](https://github.com/KreoPensas/Platypus/blob/master/IMG_20200901_182636618.jpg)
 ![alt text](https://github.com/KreoPensas/Platypus/blob/master/IMG_20200901_182652861.jpg)
 ![alt text](https://github.com/KreoPensas/Platypus/blob/master/IMG_20200901_182703185_2.jpg)
+![alt text](https://github.com/KreoPensas/Platypus/blob/master/IMG-0969.jpg)
