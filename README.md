@@ -28,9 +28,13 @@ The files PlatypusXmit.ino and bitmap.h go together and are compiled into the Te
 The file PlatypusRecv.ino is compiled into the Mega2560
 
 Also requires these libraries:
+
 https://github.com/adafruit/Adafruit_MPR121
+
 https://github.com/adafruit/Adafruit_ADS1X15
+
 https://github.com/madsci1016/Arduino-EasyTransfer
+
 
 While I support copying my physical build, at the time it is impractical to publish a guide. 
 The user interface and pitch bend mechanisms can be readily changed to buttons and a commonly available joystick. 
