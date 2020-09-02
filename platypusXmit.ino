@@ -574,12 +574,12 @@ void keyReset() {
   cap0.writeRegister(MPR121_NCLT, 0x00);
   cap0.writeRegister(MPR121_FDLT, 0x00);
   cap0.writeRegister(MPR121_DEBOUNCE, 0x01);
-  cap0.writeRegister(MPR121_CONFIG1, 0x20); // default, 16uA charge current
+  cap0.writeRegister(MPR121_CONFIG1, 0x10); // default, 16uA charge current
   cap0.writeRegister(MPR121_CONFIG2, 0x20); // 0.5uS encoding, 1ms period
   cap0.writeRegister(MPR121_AUTOCONFIG0, 0x1B);
   cap0.writeRegister(MPR121_UPLIMIT, 205);     // ((Vdd - 0.7)/Vdd) * 256
   cap0.writeRegister(MPR121_TARGETLIMIT, 190); // UPLIMIT * 0.9
-  cap0.writeRegister(MPR121_LOWLIMIT, 125);    // UPLIMIT * 0.65
+  cap0.writeRegister(MPR121_LOWLIMIT, 130);    // UPLIMIT * 0.65
   cap0.writeRegister(MPR121_ECR, ECR_SETTING);
   cap1.writeRegister(MPR121_SOFTRESET, 0x63);
   cap1.setThresholds(upper, lower);
@@ -596,12 +596,12 @@ void keyReset() {
   cap1.writeRegister(MPR121_NCLT, 0x00);
   cap1.writeRegister(MPR121_FDLT, 0x00);
   cap1.writeRegister(MPR121_DEBOUNCE, 0x01);
-  cap1.writeRegister(MPR121_CONFIG1, 0x20); // default, 16uA charge current
+  cap1.writeRegister(MPR121_CONFIG1, 0x10); // default, 16uA charge current
   cap1.writeRegister(MPR121_CONFIG2, 0x20); // 0.5uS encoding, 1ms period
   cap1.writeRegister(MPR121_AUTOCONFIG0, 0x1B);
   cap1.writeRegister(MPR121_UPLIMIT, 205);     // ((Vdd - 0.7)/Vdd) * 256
   cap1.writeRegister(MPR121_TARGETLIMIT, 190); // UPLIMIT * 0.9
-  cap1.writeRegister(MPR121_LOWLIMIT, 125);    // UPLIMIT * 0.65
+  cap1.writeRegister(MPR121_LOWLIMIT, 130);    // UPLIMIT * 0.65
   cap1.writeRegister(MPR121_ECR, ECR_SETTING);
   cap2.writeRegister(MPR121_SOFTRESET, 0x63);
   cap2.setThresholds(upper, lower);
@@ -618,12 +618,12 @@ void keyReset() {
   cap2.writeRegister(MPR121_NCLT, 0x00);
   cap2.writeRegister(MPR121_FDLT, 0x00);
   cap2.writeRegister(MPR121_DEBOUNCE, 0x01);
-  cap2.writeRegister(MPR121_CONFIG1, 0x20); // default, 16uA charge current
+  cap2.writeRegister(MPR121_CONFIG1, 0x10); // default, 16uA charge current
   cap2.writeRegister(MPR121_CONFIG2, 0x20); // 0.5uS encoding, 1ms period
   cap2.writeRegister(MPR121_AUTOCONFIG0, 0x1B);
   cap2.writeRegister(MPR121_UPLIMIT, 205);     // ((Vdd - 0.7)/Vdd) * 256
   cap2.writeRegister(MPR121_TARGETLIMIT, 190); // UPLIMIT * 0.9
-  cap2.writeRegister(MPR121_LOWLIMIT, 125);    // UPLIMIT * 0.65
+  cap2.writeRegister(MPR121_LOWLIMIT, 130);    // UPLIMIT * 0.65
   cap2.writeRegister(MPR121_ECR, ECR_SETTING);
   cap3.writeRegister(MPR121_SOFTRESET, 0x63);
   cap3.setThresholds(upper, lower);
@@ -640,12 +640,12 @@ void keyReset() {
   cap3.writeRegister(MPR121_NCLT, 0x00);
   cap3.writeRegister(MPR121_FDLT, 0x00);
   cap3.writeRegister(MPR121_DEBOUNCE, 0x01);
-  cap3.writeRegister(MPR121_CONFIG1, 0x20); // default, 16uA charge current
+  cap3.writeRegister(MPR121_CONFIG1, 0x10); // default, 16uA charge current
   cap3.writeRegister(MPR121_CONFIG2, 0x20); // 0.5uS encoding, 1ms period
   cap3.writeRegister(MPR121_AUTOCONFIG0, 0x1B);
   cap3.writeRegister(MPR121_UPLIMIT, 205);     // ((Vdd - 0.7)/Vdd) * 256
   cap3.writeRegister(MPR121_TARGETLIMIT, 190); // UPLIMIT * 0.9
-  cap3.writeRegister(MPR121_LOWLIMIT, 125);    // UPLIMIT * 0.65
+  cap3.writeRegister(MPR121_LOWLIMIT, 130);    // UPLIMIT * 0.65
   cap3.writeRegister(MPR121_ECR, ECR_SETTING);
 }
 
